@@ -47,13 +47,13 @@
         //check if the user clicks the submit button
         if( isset($_GET["compute"]) == true ) 
         {
-            //get the inputted value from the textbox named: daysWorked
+            //get the inputted value from the textbox named: processors
             $processor = $_GET["processor"];
             
-            //get the selected value from the textbox named: num2
+            //get the selected value from the textbox named: ram
             $ram = $_GET["ram"];
             
-            //get the inputted value from the combo box named: operation
+            //get the inputted value from the combo box named: accessories
             $accessories = $_GET["accesories"];
                             
             switch($processor)
